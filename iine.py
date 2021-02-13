@@ -14,7 +14,7 @@ api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
 # '#ブログ, #旅行'をそれぞれ３件ずついいね #
 # 取得したいキーワード #
-search_list = ['#美男美女と繋がりたい', '#いいねした人全員フォロー','#雰囲気嫌いじゃないよって人いいね','1mmでもいいなと思ったらいいね']
+search_list = ['#美男美女と繋がりたい', '#いいねした人全員フォロー','#雰囲気嫌いじゃないよって人いいね']
 # ツイート数３件 #
 tweet_count = 8
 
